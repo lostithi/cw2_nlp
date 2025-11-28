@@ -320,7 +320,7 @@ def parse_args():
     parser.add_argument(
         "--wandb-run-name",
         type=str,
-        default=f"nmt_{int(time.time())}",
+        default="seq2seq-medium",
         help="Weights and Biases run name.",
     )
 

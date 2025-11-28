@@ -1,5 +1,7 @@
 train_batch_size: 32
-dev_batch_size: 128
+dev_batch_size: 32
+# dev_batch_size: 128
+
 seed: 0
 max_epoch: 30
 # wait for how many iterations to decay learning rate
@@ -11,7 +13,7 @@ lr_decay: 0.5
 # uniformly initialize all parameters 
 uniform_init: 0.1
 # perform validation after every 1000 iterations
-valid_niter: 2000
+valid_niter: 200
 # Report train loss after every 10 iterations
 log_every: 10
 # Early stopping if no improvement after 5 trials
